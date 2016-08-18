@@ -19,14 +19,14 @@ public class TowersOfHanoiThreeDiskEx {
    }
 
    public static void main(String[] args) {
-       TowersOfHanoiThreeDisk towersOfHanoi = new TowersOfHanoiThreeDisk();
+       TowersOfHanoiThreeDiskEx towersOfHanoi = new TowersOfHanoiThreeDiskEx();
        tower[1] = new Stack<Integer>();
        tower[2] = new Stack<Integer>();
        tower[3] = new Stack<Integer>();
        for(int i=3;i>0;i--){
     	   tower[1].push(i);
        }
-       towersOfHanoi.DiskEx(3, 1, 2, 3);
+     new  TowersOfHanoiThreeDiskEx().DiskEx(3, 1, 2, 3);
      
    }
 }
