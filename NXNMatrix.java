@@ -22,10 +22,10 @@ public class NXNMatrix {
 			for(int i=0;i<N;i++){
 				for(int j=0;j<N;j++){
 					if(arr[i][j]==0){
-						 for(int w=0;w<N;w++)
+						 for(int temp=0;temp<N;temp++)
 				            {
-				                arr1[i][w]=0;
-				               arr1[w][j]=0;
+				                arr1[i][temp]=0;
+				               arr1[w][temp]=0;
 				            }
 						
 					}
